@@ -110,6 +110,10 @@
                     height: 50%;
                     margin: 0%;
                 }
+           
+            .label-for-iframe{
+               width: 100%;
+               Margin: 0%;
             }
             .videos{
                 display: inline;
