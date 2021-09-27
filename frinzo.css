@@ -152,8 +152,8 @@ a :visited{
 }
 .coming{
     text-align: center;
-    background:blue;
+    /* background:blue; */
     /* align-items: center; */
-    width: 100vh;
-    height: 300px;
+    width: 100%;
+    height: 100%;
 }
