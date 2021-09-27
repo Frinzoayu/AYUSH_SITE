@@ -89,11 +89,8 @@
                 width: 40%;
                 height: 50%;
                 margin: 0 30%;
+                padding: 0 4%;
             } 
-            iframe:hover{
-            border: 15px solid greenyellow;
-            transition: all ease 1s;
-            }
             
             .label-for-iframe{
                 text-align: center;
@@ -117,9 +114,13 @@
                     margin: 0%;
                 } 
             }
-            #videos{
+            /* div container of video */
+            #video-gallery{
+                width: 100%;
+                height: 250px;
+                overflow-y: scroll;
                 display: none;
-            } 
+            }
             .vid-sec-head{
              text-align: center;
             background: #000; 
@@ -130,9 +131,9 @@
                 transition: all ease 2s;
             }
 .btn{
-    background-image: url(./images/ayush.jpg);
-    width: 2%;
-    height: 2%;
+    background: #000;;
+    width: 5%;
+    height: 2.5%;
     line-height: 2vh;
 }
 footer{
@@ -152,8 +153,6 @@ a :visited{
 }
 .coming{
     text-align: center;
-    /* background:blue; */
-    /* align-items: center; */
     width: 100%;
     height: 100%;
 }

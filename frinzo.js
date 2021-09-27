@@ -12,7 +12,7 @@ function toggle() {
     
 function checked() {
     let button = document.querySelector("video-check");
-    let show = document.getElementById("videos");
+    let show = document.getElementById("video-gallery");
     if(show.style.display!="block")
     {
         show.style.display ="block";
