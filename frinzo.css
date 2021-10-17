@@ -6,8 +6,8 @@
             }
             
             body {
-                background-color: aqua;
-                color: rgb(24, 22, 22);
+                background-color: rgb(13, 245, 137);
+                color: rgba(156, 8, 8, 0.651);
             }
             /* header */
             header {
@@ -20,12 +20,7 @@
                 text-decoration: none;
                 font-weight: bold;
                 font-family: cursive;
-                /* width: 50%; */
                 display: inline;
-            }
-            .material- {
-                display: none;
-                color: white;
             }
                     @media (min-width: 1000px) {
                         #btn{
@@ -33,7 +28,7 @@
                             visibility: hidden;
                         }
                         .material-{
-                            visibility: visible;
+                            /* visibility: visible; */
                             display: flex;
                         }
                         ul a {
@@ -46,43 +41,55 @@
                 display: inline;
                 position: absolute;
                 color:black;
-
+                    }
+            .material-{
+                display: none;
             }
-            
+.main-para{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+    font-size: 2rem;
+}            
             .frinzo {
                 animation: frinzo 2s  1;
-                color:rgba(224, 7, 7, 0.904);
+                color:rgba(224, 7, 7, 0.904);   
             }
-            
          @keyframes frinzo {
                 from {
+                    opacity: 1;
                     color:rgba(224, 7, 7, 0.904);
-                    border-top: 5px solid greenyellow;
+                    border-top: 5px solid rgb(255, 47, 210);
                     border-bottom: 5px solid greenyellow;
                     border-left: hidden;
                 }
                 to {
-                    color: greenyellow;
+                    opacity: 0;
+                    color: rgb(255, 47, 175);
                     border-right: 5px solid red;
                     border-left: 5px solid red;
                 }
             } 
-            .head-para {
-                width: 50%;
-                display: inline;
-                margin: auto;
+            .intro{
+              color: red;
+              transition: all;
             }
-            li {
+            .intro :hover{
+                transform: rotate("360deg");
+                
+            }
+            .headline{
+                width: 100%;
+            }
+           .material- li {
                 color: rgb(8, 7, 7);
                 list-style: none;
             }
             
-            li:hover {
-                /* font-size: 2px; */
-                /* padding: 1px; */
+            .material- li:hover {
                 color: red;
                 background-color: rgb(13, 230, 67);
-                /* border:  solid red */
+
             }
             
             iframe{
@@ -95,14 +102,11 @@
             .label-for-iframe{
                 text-align: center;
                 background: #000;
+                border: 2px solid aqua;
                 color: greenyellow;
                 width: 40%;
                 margin: 2% 30%;  
             } 
-            .label-for-iframe:hover{
-                letter-spacing: .5vh;
-                transition: all ease 2s;
-                            }
             @media (max-width: 600px) {
                 iframe{
                     width: 100%;
@@ -119,7 +123,8 @@
                 width: 100%;
                 height: 250px;
                 overflow-y: scroll;
-                display: none;
+                /* overflow-y: hidden; */
+                display: block;
             }
             .vid-sec-head{
              text-align: center;
@@ -131,12 +136,13 @@
                 transition: all ease 2s;
             }
 .btn{
-    background: #000;;
+    /* background: #000;; */
+    background-image: url(/images/menu.svg);
     width: 5%;
     height: 2.5%;
     line-height: 2vh;
 }
-footer{
+    footer{
     background-color:rgb(8, 7, 7);
     height:10%;
     width: 100%;
@@ -155,4 +161,16 @@ a :visited{
     text-align: center;
     width: 100%;
     height: 100%;
+    border: 2px solid black;
+}
+.notes-head{
+    text-align: center;
+}
+#subs{
+    display: none;
+}
+.CLG-notes{
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
 }
