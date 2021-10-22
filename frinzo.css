@@ -1,13 +1,8 @@
-    * {
+     *{
         margin: 0%;
         padding: 0%;
-                text-decoration: none;
-                box-sizing: border-box;
-            }
-            
-            body {
-                height: 100%;
-                width: 100%;
+        text-decoration: none;
+        box-sizing: border-box;
             }
             /* header */
             header {
@@ -136,10 +131,11 @@
 }
     footer{
     background-color:rgb(8, 7, 7);
-    height:100%;
+    height:8vh;
     width: 100%;
+    bottom: 0%;
     text-align: center;
-    /* position: absolute; */
+    position: fixed;
 }
 a :visited{
     color: red;
