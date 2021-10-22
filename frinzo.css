@@ -6,14 +6,14 @@
             }
             
             body {
-                background-color: rgb(13, 245, 137);
-                color: rgba(156, 8, 8, 0.651);
+                height: 100%;
+                width: 100%;
             }
             /* header */
             header {
                 text-align: center;
                 font-size: 40px;
-                /* background-color:black; */
+               
             }
             
             .frinzo {
@@ -21,6 +21,7 @@
                 font-weight: bold;
                 font-family: cursive;
                 display: inline;
+                color: red;
             }
                     @media (min-width: 1000px) {
                         #btn{
@@ -28,12 +29,10 @@
                             visibility: hidden;
                         }
                         .material-{
-                            /* visibility: visible; */
                             display: flex;
                         }
                         ul a {
-                        margin: 20px;
-                          }
+                        margin: .5rem 2.5rem;                          }
                         }
                              
                     #btn{
@@ -41,55 +40,47 @@
                 display: inline;
                 position: absolute;
                 color:black;
-                    }
-            .material-{
-                display: none;
             }
+            .container{
+                height: 20%;
+            }
+            .material-{
+                background-color: red;
+                /* border-radius: 20%; */
+            }
+            .material- li {
+                 color: rgb(8, 7, 7);
+                 list-style: none;
+             }
+             
+             .material- li:hover {
+                 color: red;
+                 background-color: rgb(13, 230, 67);
+            
+             }
 .main-para{
     text-align: center;
     font-weight: bolder;
     font-style: italic;
     font-size: 2rem;
 }            
-            .frinzo {
-                animation: frinzo 2s  1;
-                color:rgba(224, 7, 7, 0.904);   
+            .head1{
+                animation: frinzo 5s 1 ;
+                color:rgba(224, 7, 7, 0.904);  
+                /* transition: all 2s ease-in-out;  */
             }
          @keyframes frinzo {
-                from {
-                    opacity: 1;
-                    color:rgba(224, 7, 7, 0.904);
-                    border-top: 5px solid rgb(255, 47, 210);
-                    border-bottom: 5px solid greenyellow;
-                    border-left: hidden;
-                }
-                to {
-                    opacity: 0;
-                    color: rgb(255, 47, 175);
-                    border-right: 5px solid red;
-                    border-left: 5px solid red;
-                }
+            50%{
+                transform:rotate(45deg);
+                letter-spacing: -40px;
+                opacity: 0;
+            }
             } 
             .intro{
               color: red;
-              transition: all;
-            }
-            .intro :hover{
-                transform: rotate("360deg");
-                
             }
             .headline{
                 width: 100%;
-            }
-           .material- li {
-                color: rgb(8, 7, 7);
-                list-style: none;
-            }
-            
-            .material- li:hover {
-                color: red;
-                background-color: rgb(13, 230, 67);
-
             }
             
             iframe{
@@ -121,9 +112,8 @@
             /* div container of video */
             #video-gallery{
                 width: 100%;
-                height: 250px;
-                overflow-y: scroll;
-                /* overflow-y: hidden; */
+                height: 250px;  
+                overflow-y:scroll;
                 display: block;
             }
             .vid-sec-head{
@@ -138,17 +128,18 @@
 .btn{
     /* background: #000;; */
     background-image: url(/images/menu.svg);
-    width: 5%;
-    height: 2.5%;
+    background-repeat: no-repeat;
+    width: 2%;
+    height: 4.5%;
+    border-radius: 50%;
     line-height: 2vh;
 }
     footer{
     background-color:rgb(8, 7, 7);
-    height:10%;
+    height:100%;
     width: 100%;
     text-align: center;
-    position: absolute;
-    bottom: 0%;
+    /* position: absolute; */
 }
 a :visited{
     color: red;
@@ -159,17 +150,6 @@ a :visited{
 }
 .coming{
     text-align: center;
-    width: 100%;
-    height: 100%;
-    border: 2px solid black;
-}
-.notes-head{
-    text-align: center;
-}
-#subs{
-    display: none;
-}
-.CLG-notes{
     width: 100%;
     height: 100%;
     border: 2px solid black;
