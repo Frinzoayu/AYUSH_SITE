@@ -24,7 +24,8 @@
                             visibility: hidden;
                         }
                         .material-{
-                            display: flex;
+                            display: block;
+                            text-align: center;
                         }
                         ul a {
                         margin: .5rem 2.5rem;                          }
@@ -40,7 +41,8 @@
                 height: 20%;
             }
             .material-{
-                background-color: red;
+                display: none;
+                /* background-color: red; */
                 /* border-radius: 20%; */
             }
             .material- li {
