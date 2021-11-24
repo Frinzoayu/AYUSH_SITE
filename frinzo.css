@@ -64,7 +64,10 @@
     font-weight: bolder;
     font-style: italic;
     font-size: 2rem;
-}            
+}  
+.about{
+    color:white;
+}
             .head1{
                 animation: frinzo 5s 1 ;
                 color:rgba(224, 7, 7, 0.904);  
