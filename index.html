@@ -10,16 +10,6 @@
     <!-- <script src="frinzo.js"></script> -->
     <title>frinzo</title>
 </head>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="">
-    <title>Document</title>
-</head>
 <style>
     .centercontent{
         margin: 20%;
@@ -38,14 +28,12 @@
     font-size: 5rem;
     color: white;
 }
-
 body {
-	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background: linear-gradient(-45deg, hsl(14, 94%, 48%), #eb4c89, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 15s  infinite;
 	height: 100%;
 }
-
 @keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -57,43 +45,26 @@ body {
 		background-position: 0% 50%;
 	}
 }
-@media screen (min-width:650px;) {
-    
-}
 </style>
 <body>
     
-        <div class="centercontent">
-            <p class="Name">Aayush</p>
+    <div class="centercontent">
+            <p class="Name" id="name">Aayush</p>
             <div class="socials">
                 <a href="https://www.instagram.com/nevermind3930/" class="fa fa-instagram"></a>
                 <a href="https://t.me/nevermind3930" class="fa fa-telegram"></a>
                 <a href="https://github.com/Frinzoayu" class="fa fa-github"></a>
-            </div>
-        </div>
         <div class="centercontent1">
         <p>WAKE UP</p>
         <p>CODE</p>
         <p>SLEEP</p>
         <p>REPEAT</p>
     </div>
+    </div>
+    </div>
 </body>
 </html>
 <body>
-    <!-- <header class="head1">
-        <a class="frinzo" href="index.html"></a>
-    </header>
-   
-    <div class="headline">
-
-        <p class="main-para">
-            Hello,How are you.Hope you are fine. <br>
-            <font color="red">
-                Aayush Vishwakarma this side <br>
-            </font>
-            I Am Here to provide you Little knowledge.
-        </p>
-    </div> -->
     <div class="container">
         <button id="btn" type="button" onclick="toggle()" class="btn"></button>
         <ul class="material-" id="material-">
@@ -112,9 +83,7 @@ body {
                 <a href="https://www.w3schools.com/">
                     <li>Little About Web development</li>
                 </a>
-                <!-- <a href="contact.html">
-                    <li>Connect with Me</li>
-                </a> -->
+
         </ul>
         </p>
     </div>
@@ -177,13 +146,6 @@ body {
         </div>
     </div>
     <!-- Video ends here -->
-    <!-- <div class="CLG-notes">
-    <h2 class="notes-head" >COLLAGE NOTES BCA SECOND YEAR</h2>
-<p class="subjects">
-    <button id="listsubs" onclick="listsub()">SUBJECTS</button>
-        <a class="sub1" id="subs" href="#">Operating System</a>
-</p>
-</div> -->
     <div class="coming">
         <marquee behavior="alternate" width="20%" direction="">
         CONTENT COMING HERE
@@ -220,16 +182,6 @@ body {
         }
         else {
             show.style.display = "none";
-        }
-    }
-    function listsub() {
-        let listsubs = document.getElementById("listsubs");
-        let subs = document.getElementById("subs");
-        if (subs.style.display != "block") {
-            subs.style.display = "block";
-        }
-        else {
-            subs.style.display = "none";
         }
     }
 </script>

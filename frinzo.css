@@ -18,14 +18,18 @@
                 display: inline;
                 color: red;
             }
-                    @media (min-width: 1000px) {
+                    @media (max-width: 1000px) {
                         #btn{
-                            display:none;
-                            visibility: hidden;
+                            display:inline;
+                            /* visibility: hidden; */
+                        }
+                        .centercontent{
+                            padding: 40% 0;
+                           min-height: 90vh;
                         }
                         .material-{
-                            display: block;
-                            text-align: center;
+                            display: none;
+                            /* text-align: center; */
                         }
                         ul a {
                         margin: .5rem 2.5rem;                          }
@@ -33,7 +37,7 @@
                              
                     #btn{
                 right: 2%;
-                display: inline;
+                display: none;
                 position: absolute;
                 color:black;
             }
@@ -41,7 +45,7 @@
                 height: 20%;
             }
             .material-{
-                display: none;
+                /* display: block; */
                 /* background-color: red; */
                 /* border-radius: 20%; */
             }
