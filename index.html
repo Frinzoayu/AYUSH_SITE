@@ -5,185 +5,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="frinzo.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <script src="frinzo.js"></script> -->
-    <title>frinzo</title>
+    <title>VISHWAYU | Web designer</title>
 </head>
 <style>
-    .centercontent{
-        margin: 20%;
-        margin-bottom: 0%;
-        text-align: center;
+    * {
+        box-sizing: border-box;
+        margin: 0%;
+        padding: 0%;
     }
-    .centercontent1{
-        margin-bottom: 20%;
-        text-align: center;
-        color: white;
-        /* width:100%;
-        height:100%; */
-}
-.Name{
-    font-weight: bold;
-    font-size: 5rem;
-    color: white;
-}
-body {
-	background: linear-gradient(-45deg, hsl(14, 94%, 48%), #eb4c89, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: gradient 15s  infinite;
-	height: 100%;
-}
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-</style>
-<body>
+
+    #body {
+        background-color: black;
+        color: blanchedalmond;
+    }
+
+    .about span {
+        font-size: 9vw;
+        display: block;   
+    }
     
-    <div class="centercontent">
-            <p class="Name" id="name">Aayush</p>
-            <div class="socials">
-                <a href="https://www.instagram.com/nevermind3930/" class="fa fa-instagram"></a>
-                <a href="https://t.me/nevermind3930" class="fa fa-telegram"></a>
-                <a href="https://github.com/Frinzoayu" class="fa fa-github"></a>
-        <div class="centercontent1">
-        <p>WAKE UP</p>
-        <p>CODE</p>
-        <p>SLEEP</p>
-        <p>REPEAT</p>
-    </div>
-    </div>
-    </div>
-</body>
-</html>
-<body>
-    <div class="container">
-        <button id="btn" type="button" onclick="toggle()" class="btn"></button>
-        <ul class="material-" id="material-">
-            <a href="https://www.youtube.com/channel/UCmODqoJGoiXTT--ahVB3Tqg">
-                <li>Gaming</li>
-            </a>
-            <a href="https://www.pling.com/browse/cat/495/ord/rating/?tag=asus">
-                <li>Custom Roms</li>
-            </a>
-            <a href="https://www.pling.com/browse/cat/516/order/latest/?tag=asus">
-                <li>Custom kernels </li>
+    .about {
+        border-radius: 10% 0 0 10%;
+        margin: 2%;
+        padding: 2%;
+        border-bottom: 5px solid gray;
+        border-right: 5px solid gray;
+    }
 
-                <a href="https://www.w3schools.com/python/default.asp">
-                    <li>Little About programming</li>
-                </a>
-                <a href="https://www.w3schools.com/">
-                    <li>Little About Web development</li>
-                </a>
-
-        </ul>
-        </p>
-    </div>
+    .BABYDON {
+        border-radius: 10%;
+    }
+    ul a{
+        display: flex;
+        color:aqua;
+        text-decoration: none;
+        
+    }
+    ul a span{
+        color: greenyellow;
+        margin-left: 15em;
+        display: flex;
+        position: absolute;
+    }
+</style>
+<body id="body">
     <div class="about">
-       
-        <!-- <img src="../resume maker/IMG_20210416_231402_942.jpg" alt=""> -->
-
-        <h3>
-            About Me
-        </h3>
-
-        <li>
-            Web Developer <br>
-        </li>
-        <li>
-            Gamer
-        </li>
-        <li>
-            Learning more...
-        </li>
+        <span style="color: blue;">
+            Self-taught Developer
+        </span>
+        <span style="color: blueviolet;">
+            BCA Student
+        </span>
+        <span style="color: crimson;">
+            Web Designer
+        </span>
+        <p class="work-para" style="font-size: 3vw;">Working With <a
+                style="font-size: 5vw; text-decoration: none; color:saddlebrown;"
+                href="https://rajtkgoodies.netlify.app/">Team-kryptonite </a> as a Tester</p>
     </div>
-    <!-- <input type="color" name="color" onselect="color()" id="CH-COLOR"> -->
-    <div class="video-class">
-        <p class="vid-sec-head">
-            <button id="video-check" onclick="checked()">
-                Check-out My Videos
-            </button>
-        </p>
-        <!-- video start here  -->
-        <div id="video-gallery">
-            <div id="videos">
-                <!-- VIDEO1 -->
-                <p class="label-for-iframe">BGMI MONTAGE | frinzo</p>
-                <iframe src="https://www.youtube.com/embed/_8DR-V4iAJs" title="BGMI MONTAGE" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen>
-                </iframe>
+    <div class="Middlesection">
 
-                <p class="label-for-iframe">BGMI MORTAL TRICKS | frinzo</p>
-                <!-- VIDEO2 -->
-                <iframe src="https://www.youtube.com/embed/56qhotfigUQ" title="BGMI" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <p class="label-for-iframe">BGMI MORTAL TRICKS | frinzo</p>
-                <!-- VIDEO2 -->
-                <iframe src="https://www.youtube.com/embed/56qhotfigUQ" title="BGMI" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <p class="label-for-iframe">BGMI MORTAL TRICKS | frinzo</p>
-                <!-- VIDEO2 -->
-                <iframe src="https://www.youtube.com/embed/56qhotfigUQ" title="BGMI" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-                <p class="label-for-iframe">BGMI MORTAL TRICKS | frinzo</p>
-                <!-- VIDEO2 -->
-                <iframe src="https://www.youtube.com/embed/56qhotfigUQ" title="BGMI" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-            </div>
+        <span class="MyName" style="font-size: 6vw; ">Aayush Vishwakarma</span>
+        <p style="font-size: 2vw; width: 50%;">Designing is an art of making simple object more attractive , Everyone
+            is designer , Designing Is part of Every field . I choosen Web Designing , Web Designing is
+            creating,Applying Creativity , Knowing What grab attention and making Web Pages</p>
+        <div>
+            <img style="margin-left: 65%; margin-top: -17%; width: 34vw; height: 35vw;" name="BABYDON" class="BABYDON"
+                src="https://media-exp1.licdn.com/dms/image/C4E03AQH5FxNjL4Doew/profile-displayphoto-shrink_400_400/0/1643092602311?e=1649289600&v=beta&t=0yCfoV1GPKBrb_403H0EXGAtrX9goXn4IffAfSeafXM"
+                alt="THEBABYDON">
         </div>
     </div>
-    <!-- Video ends here -->
-    <div class="coming">
-        <marquee behavior="alternate" width="20%" direction="">
-        CONTENT COMING HERE
-        </marquee>
-    </div>
-    <!-- <footer style="color: white;">
-        All rights reserved to <font color="skyblue">AyuCodes</font>
-        <div class="socials">
-            <a href="https://www.instagram.com/nevermind3930/" class="fa fa-instagram"></a>
-            <a href="https://t.me/nevermind3930" class="fa fa-telegram"></a>
-            <a href="https://github.com/Frinzoayu" class="fa fa-github"></a>
-        </div>
-    </footer> -->
+<hr>
+    <div class="projects">
+        <H1 style="text-align: center;">Projects</H1>
+        <h1> Pure HTML and CSS </h1>
+<hr>
+<ul>
+
+            <a href="">
+        Netflix UI Clone - <span>Full Netflix Look , No JS used UI comparable with original </span> </a>
+            <a href="">
+        Snapchat UI - <span>Just a UI intro of Snapchat UI with little Edits</span> </a>
+            <a href="">
+        Insta Rough UI - <span>Instagram Clone UI , It is fully Responsive ,Only UI</span> </a>
+            <a href="">
+        Music Album - <span>Not a Clone ,Design for Music store,E-commerce site or any library view site </span>  
+            </a>
+            <a href="">
+        Youtube Clone including Movies - <span>Youtube UI Clone but also Have some Movies From HDtoday.tv</span>
+            </a>
+            <a href="">
+        Registration Form - <span>
+         Simple Registration Form UI consist Form Validation
+        </span>
+            </a>
+</ul>
+</div>
+<hr>
+<footer style="background-color: black; text-align: center; padding: 2em; height: 2em; justify-content: center; margin: auto; ">
+   All Rights Reserved to VISHWAYU 
+</footer>
 </body>
-<script>
-    function toggle() {
-        let btn = document.querySelector("btn");
-        let navbar = document.getElementById("material-");
-        if (navbar.style.display != "block") {
-            navbar.style.display = "block";
-        }
-        else {
-            navbar.style.display = "none";
-        }
-    }
-
-
-
-    function checked() {
-        let button = document.querySelector("video-check");
-        let show = document.getElementById("video-gallery");
-        if (show.style.display != "block") {
-            show.style.display = "block";
-        }
-        else {
-            show.style.display = "none";
-        }
-    }
-</script>
 
 </html>
